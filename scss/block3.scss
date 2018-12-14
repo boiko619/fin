@@ -1,0 +1,469 @@
+.block3{
+    grid-area: block3;
+    width: 100%;
+    height: 650px;
+    background: #374a50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+.block3_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    h1{
+        color: #fefacd;
+        text-transform: uppercase;
+        font: 100 34px 'Open Sans', sans-serif;
+
+    }  
+}
+.block3_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 658px;
+    height: 410px;
+    img{
+        height: auto;
+        width: 658px;
+    }
+}
+.block3_link1{
+    position: absolute;
+    left: -100px;
+    top: 5px;
+    width: 300px;
+    height: 300px;
+
+.block3_link1_block{
+    position: relative;
+}
+.block3_link1_top{
+    width: 180px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    left: -80px;
+    top: 48px;
+}
+.block3_link1_top::after{
+    content: "2.	Пополняем счет";
+    position: absolute;
+    color: #fefacd;
+    font-size: 22px;
+    top: -30px;
+    left: 5px;
+    font: 'Open Sans', sans-serif;
+
+
+
+}
+.block3_link1_top::before{
+    content: "Выберете удобный способ пополнения баланса своего аккаунта.";
+    position: absolute;
+    color: #9ea6a8;
+    top: 10px;
+    left: 5px;
+    font: 'Open Sans', sans-serif;
+
+
+}
+.block3_link1_center{
+    width: 250px;
+    height: 1px;
+    top: 80px;
+    left: 93px;
+    background: #000;
+    position: absolute;
+    transform: rotate(15deg);
+
+}
+.block3_link1_bottom{
+    width: 10px;
+    height: 10px;
+    top: 110px;
+    right: -41px;
+    background: #000;
+    position: absolute;
+    border-radius: 50%
+}
+.block3_link1_bottom_center{
+    position: absolute;
+
+    width: 6px;
+    height: 6px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    left: 2px;
+    top: 2px;
+
+
+}
+}
+.block3_link2{
+    position: absolute;
+    right: -100px;
+    top: 5px;
+    width: 300px;
+    height: 300px;
+    .block3_link1_block{
+        position: relative;
+    }
+    .block3_link1_top{
+        width: 180px;
+        height: 1px;
+        background: #000;
+        position: absolute;
+        right: -80px;
+        top: 48px;
+    }
+    .block3_link1_top::after{
+        content: "3.	Вложение";
+        position: absolute;
+        color: #fefacd;
+        font-size: 22px;
+        top: -30px;
+        left: 5px;
+        font: 'Open Sans', sans-serif;
+
+    
+    }
+    .block3_link1_top::before{
+        content: "На поступившие средства, с помощью аналитика, вы можете создать подходящий для вас депозит.";
+        position: absolute;
+        color: #9ea6a8;
+        top: 10px;
+        left: 5px;
+        font: 'Open Sans', sans-serif;
+
+    
+    }
+    .block3_link1_center{
+        width: 250px;
+        height: 1px;
+        top: 80px;
+        right: 93px;
+        background: #000;
+        position: absolute;
+        transform: rotate(-15deg);
+    
+    }
+    .block3_link1_bottom{
+        width: 10px;
+        height: 10px;
+        top: 110px;
+        left: -41px;
+        background: #000;
+        position: absolute;
+        border-radius: 50%
+    }
+    .block3_link1_bottom_center{
+        position: absolute;
+    
+        width: 6px;
+        height: 6px;
+        background: rgb(255, 255, 255);
+        border-radius: 50%;
+        left: 2px;
+        top: 2px;
+    
+    
+    }
+
+}
+.block3_link3{
+    position: absolute;
+    left: -100px;
+    bottom: 5px;
+    width: 300px;
+    height: 300px;
+
+.block3_link1_block{
+    position: relative;
+}
+.block3_link1_top{
+    width: 180px;
+    height: 1px;
+    background: rgb(36, 36, 36);
+    position: absolute;
+    left: -80px;
+    top: 177px;
+}
+.block3_link1_top::after{
+    content: "1.	Регистрация";
+    position: absolute;
+    color: #fefacd;
+    font-size: 22px;
+    top: -30px;
+    left: 5px;
+    font: 'Open Sans', sans-serif;
+
+
+}
+.block3_link1_top::before{
+    content: "Для получения доступа к своему кабинету, нужно зарегистрироваться. Это займет не более двух минут.";
+    position: absolute;
+    color: #9ea6a8;
+    top: 10px;
+    left: 5px;
+    font: 'Open Sans', sans-serif;
+
+
+}
+.block3_link1_center{
+    width: 250px;
+    height: 1px;
+    top: 145px;
+    left: 93px;
+    background: rgb(36, 36, 36);
+    position: absolute;
+    transform: rotate(-15deg);
+
+}
+.block3_link1_bottom{
+    width: 10px;
+    height: 10px;
+    top: 110px;
+    right: -41px;
+    background: #000;
+    position: absolute;
+    border-radius: 50%
+}
+.block3_link1_bottom_center{
+    position: absolute;
+
+    width: 6px;
+    height: 6px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    left: 2px;
+    top: 2px;
+
+
+}
+}
+
+.block3_link4{
+    position: absolute;
+    right: -100px;
+    bottom: 5px;
+    width: 300px;
+    height: 300px;
+    .block3_link1_block{
+        position: relative;
+    }
+    .block3_link1_top{
+        width: 220px;
+        height: 1px;
+        background: #000;
+        position: absolute;
+        right: -120px;
+        top: 177px;
+    }
+    .block3_link1_top::after{
+        content: "4.	Получаем прибыль";
+        position: absolute;
+        color: #fefacd;
+        font-size: 22px;
+        top: -30px;
+        left: 5px;
+        font: 'Open Sans', sans-serif;
+
+    
+    }
+    .block3_link1_top::before{
+        content: "Спустя сутки, на ваш счет будет начислена прибыль, которую вы можете вывести удобным для вас способом.";
+        position: absolute;
+        color: #9ea6a8;
+        top: 10px;
+        left: 5px;
+        font: 'Open Sans', sans-serif;
+
+    
+    }
+    .block3_link1_center{
+        width: 250px;
+        height: 1px;
+        top: 145px;
+        right: 93px;
+        background: #000;
+        position: absolute;
+        transform: rotate(15deg);
+    
+    }
+    .block3_link1_bottom{
+        width: 10px;
+        height: 10px;
+        top: 110px;
+        left: -41px;
+        background: #000;
+        position: absolute;
+        border-radius: 50%
+    }
+    .block3_link1_bottom_center{
+        position: absolute;
+    
+        width: 6px;
+        height: 6px;
+        background: rgb(255, 255, 255);
+        border-radius: 50%;
+        left: 2px;
+        top: 2px;
+    
+    
+    }
+
+}
+
+.block3_abs{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: -40px;
+    background: #374a50;
+    left: 50%;
+    margin-left: -40px;
+    transform: rotate(45deg);
+    z-index: 100;
+
+
+}
+
+
+@media screen and (max-width:1250px){
+
+.block3_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 658px;
+    height: 410px;
+    img{
+        height: auto;
+        width: 400px;
+    }
+}
+.block3_link1{
+    .block3_link1_center{
+        width: 150px;
+        height: 1px;
+        top: 95px;
+        left: 193px;
+        background: #000;
+        position: absolute;
+        transform: rotate(15deg);
+    
+    }
+    .block3_link1_top{
+        width: 180px;
+        height: 1px;
+        background: #000;
+        position: absolute;
+        left: 18px;
+        top: 75px;
+    }
+}
+.block3_link2{
+    position: absolute;
+    right: -100px;
+    top: 5px;
+    width: 300px;
+    height: 300px;
+    .block3_link1_block{
+        position: relative;
+    }
+    .block3_link1_top{
+        width: 180px;
+        height: 1px;
+        background: #000;
+        position: absolute;
+        right: 18px;
+        top: 75px;
+    }
+
+    .block3_link1_center{
+        width: 150px;
+        height: 1px;
+        top: 95px;
+        right: 193px;
+        background: #000;
+        position: absolute;
+        transform: rotate(-15deg);
+    
+    }
+}
+.block3_link3{
+    position: absolute;
+    left: -100px;
+    bottom: 5px;
+    width: 300px;
+    height: 300px;
+
+.block3_link1_block{
+    position: relative;
+}
+.block3_link1_top{
+    width: 180px;
+    height: 1px;
+    background: rgb(36, 36, 36);
+    position: absolute;
+    left: 18px;
+    top: 155px;
+}
+
+.block3_link1_center{
+    width: 150px;
+    height: 1px;
+    top: 135px;
+    left: 193px;
+    background: rgb(36, 36, 36);
+    position: absolute;
+    transform: rotate(-15deg);
+
+}
+}
+.block3_link4{
+    position: absolute;
+    right: -100px;
+    bottom: 5px;
+    width: 300px;
+    height: 300px;
+    .block3_link1_block{
+        position: relative;
+    }
+    .block3_link1_top{
+        width: 220px;
+        height: 1px;
+        background: #000;
+        position: absolute;
+        right: -25px;
+        top: 152px;
+    }
+
+    .block3_link1_center{
+        width: 150px;
+        height: 1px;
+        top: 132px;
+        right: 190px;
+        background: #000;
+        position: absolute;
+        transform: rotate(15deg);
+    
+    }
+}
+}
+@media screen and (max-width:950px){
+    .block3{
+        height: 1000px;
+    }
+}

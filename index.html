@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>   
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Pages</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+
+</head>
+<body>
+<div class="body_pages">
+        <div class="otkaz_block" id="otkaz_block">
+                <div class="close"><img src="images/close.png" alt="" id="close_ot"></div>
+                <div class="otkaz_flex">
+                    <div class="otkaz_title">
+                        <h2>Отказ от ответственности</h2>
+                    </div>
+                    <div class="otkaz_info">
+                        <p>Все заявления о получении прибыли или дохода, а также примеры получения прибыли или дохода, которые могут быть размещены на сайтах нашей компании, являются только прогностической оценкой возможного заработка и не гарантирует его получения. Считая предполагаемую прибыль гарантированной, вы принимаете на себя также риск ее неполучения.<br/>
+                            При указании конкретной величины дохода и использования ее относительно лица или вида бизнеса в качестве заработанной ими суммы не гарантируется получение вами аналогичного дохода.<br/>
+                            Любые заявления или представления, размещенные на сайтах нашей компании, касающиеся возможного получения прибыли - не считаются средней величиной заработка.
+                            Предшествующие успехи или результаты прошлых участников, касающиеся получения доходов и других финансовых результатов не могут использоваться в качестве гарантии для последующей деятельности и получения доходов.<br/>
+                            Величина дохода и ее денежное выражение базируется на многих факторах. Мы не располагаем информацией об успешности вашей деятельности в будущем, а также касающейся лично вас и не гарантируем вероятности получения каких-либо конкретных денежных сумм. Считая предполагаемую прибыль гарантированной, вы принимаете на себя также риск ее неполучения.<br/>
+                            Ведение деловой деятельности и связанной с ней получение прибыли сопряжены с рисками, и решение о занятии подобными видами деятельности не может основываться на какой-либо информации, размещенной на наших продуктах или предоставляемых услуг и должно приниматься исключительно с учетом возможных убытков или неполучения прибыли лично вами. <br/>
+                            Настоящим вы выражаете свое согласие, что наша компания не несет ответственности за правильность или ошибочность принятых вами решений относительно ведения бизнеса, а также какой-либо информации предоставленной на нашем сайте.<br/>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        <div id="block_form">
+                <img src="images/close.png" alt="" id="close"  >
+                <div class="call_me" id="call_me">
+        
+                    
+                        
+                        <form action="zakaz.php" method="post" class="call_me_block">
+                            <div class="call_me_form">
+                                <div class="form_top">
+                                    <div class="form_mail">
+                                            <p>Email*</p>
+                                            <input type="email" class="input" name="mail" id="mail"  placeholder="Введите ваш email" outline:none>
+                                    </div>
+                                
+                               
+                                </div>
+                                <div class="form_bottom">
+                                <div class="form_name">
+                                    <p>Имя*</p>
+                                    <input type="text" class="input" name="name" id="name" placeholder="Введите ваше имя" outline:none>
+                                </div>
+                                <div class="form_tel">
+                                    <p>Телефон*</p>
+                                    <input type="text" class="input" name="tel" id="tel" placeholder="Введите ваш номер" outline:none 
+                                    onkeypress='validate(event)'>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="call_me_bottom"> 
+                                <div class="call_me_bottom_info">
+                                    <div class="call_me_blocked">
+                                        <img src="images/blocked.png" alt="">
+                                    </div>
+                                    <div class="call_me_bottom_text">
+                                        <p>Ваши данные под защитой <br/>SecureTECH</p>
+                                    </div>
+                                </div>
+                                <div class="submit">
+                                   <input  type="submit" name="sub" id="sub" value="Оставить заявку" outline:none>
+                    
+                                </div>
+                    
+                            </div>
+                            </form>
+                        </div>
+                    
+                </div>
+    <div class="header" id="header">
+        <div class="nav">
+            <div class="logo">
+                <img src="images/icon/logo.png" alt="">
+                <p></p>
+            </div>
+            <ul class="head_manu">
+                <!--<li class="head_li"><p>asdasd</p></li>
+                <li class="head_li"><p>dsada</p></li>
+                <li class="head_li"><p>asdsa</p></li>
+                <li class="head_li"><p>sadadsa</p></li>-->
+            </ul>
+        </div>
+        <div class="header_info">
+            <div class="header_info_top">
+                <p>НЕФТЬ</p>
+            </div>
+            <div class="header_info_center">
+                    <p> 
+                            Инвестиции, прибыль, доход, профит
+                            </p>
+            </div>
+            <div class="header_info_but">
+                    <div class="header_info_button" href="#header"  id="mouseup1" onclick="changeImg(1);">
+                            <p>Подробнее</p>
+                    </div>
+            </div>
+        </div>
+</div>
+<div class="block1">
+    <div class="block1_abs"></div>
+    <div class="block1_grid">
+        <div class="block1_left">
+            <div class="block1_left_title">
+                <p>Проверено временем </p>
+            </div>
+            <div class="block1_left_text">
+                <p>Область инвестирования в товарно-сырьевой рынок – меньше всего восприимчива к мировому кризису и скачкам курса валют. Опытные инвесторы доверяют нам, потому что при открытии сделок мы используем проверенную инсайдерскую информацию и разрабатываем индивидуальные инвестиционные портфели под возможности и потребности каждого клиента.</p>
+            </div>
+            <ul class="block1_left_ul">
+                <li class="block1_left_li"><img src="images/icon/li.png" alt="" srcset=""> <p>Работа с надежным товарно-сырьевым рынком</p></li>
+                <li class="block1_left_li"><img src="images/icon/li.png" alt="" srcset=""> <p>Индивидуальная аналитика</p></li>
+                <li class="block1_left_li"><img src="images/icon/li.png" alt="" srcset=""> <p>Бесплатная разработка инвестиционного портфеля</p></li>
+                <li class="block1_left_li"><img src="images/icon/li.png" alt="" srcset=""> <p>Долгосрочное сотрудничество</p></li>
+                <li class="block1_left_li"><img src="images/icon/li.png" alt="" srcset=""> <p>Обучение новичков </p></li>
+            </ul>
+            <div class="block1_left_butt">
+                <div href="#header" class="block1_left_button"   id="mouseup2" onclick="changeImg(2);">
+                    <p>Регистрация</p>
+                </div>
+            </div>
+        </div>
+        <div class="block1_right">
+            <p></p>
+            <div class="block1_right_img">
+                <img src="images/note_deg.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="block2">
+    <div class="block2_abs"></div>
+    <div class="block2_grid">
+        <div class="block2_item">
+                <div class="block2_item_img_block">
+                    <img src="images/icon/save.png" alt="" class="block2_item_img">
+                        
+                </div>
+                <div class="block2_item_info">
+                        <div class="block2_item_title"><h2>Надежность </h2></div>
+                        <div class="block2_item_text"> <p>С нами работают специалисты с 5-летним опытом работы ведения международного бизнеса.</p></div>
+                </div>
+        </div>
+
+
+
+        <div class="block2_item">
+                <div class="block2_item_img_block">
+                    <img src="images/icon/good.png" alt="" class="block2_item_img">
+                    
+                </div>
+                <div class="block2_item_info">
+                        <div class="block2_item_title"><h2>Уверенность</h2></div>
+                        <div class="block2_item_text"> <p>Ведем торговлю опираясь на анализ аналитиков банков Deutsche Bank, J.P. Morgan Chase & Co, Bank of America.</p></div>
+                </div>
+            </div>
+
+
+
+        <div class="block2_item">
+            <div class="block2_item_img_block">
+                <img src="images/icon/devel.png" alt="" class="block2_item_img">
+                
+            </div>
+            <div class="block2_item_info">
+                    <div class="block2_item_title"><h2>Независимость</h2></div>
+                    <div class="block2_item_text"> <p>Проводим аналитику с нашими клиентами так, чтобы курс валют, экономическая ситуация не влияли на результат закрытия сделок и суммы прибыли.</p></div>
+            </div>
+        </div>
+
+
+
+        <div class="block2_item">
+                <div class="block2_item_img_block">
+                    <img src="images/icon/min.png" alt="" class="block2_item_img">
+                    
+                </div>
+                <div class="block2_item_info">
+                        <div class="block2_item_title"><h2>Доступность</h2></div>
+                        <div class="block2_item_text"> <p>Имеем более 2000 клиентов по всему миру. Готовы сотрудничать с вами в любой стране при наличии интернета.</p></div>
+                </div>
+            </div>
+
+
+
+            <div class="block2_item">
+                    <div class="block2_item_img_block">
+                        <img src="images/icon/speed.png" alt="" class="block2_item_img">
+                        
+                    </div>
+                    <div class="block2_item_info">
+                            <div class="block2_item_title"><h2>Скорость </h2></div>
+                            <div class="block2_item_text"> <p>Каждый день успешно закрываем более 120 сделок. Наши аналитики оповещают клиентов о новой доступной сделке любым удобным способом связи в течении 1 часа.</p></div>
+                    </div>
+                </div>
+
+
+                <div class="block2_item">
+                        <div class="block2_item_img_block">
+                            <img src="images/icon/supp.png" alt="" class="block2_item_img">
+                            
+                        </div>
+                        <div class="block2_item_info">
+                                <div class="block2_item_title"><h2>Поддержка</h2></div>
+                                <div class="block2_item_text"> <p>Наш центр консалтинга готов выйти с вами на связь в день подачи заявки и предоставить консультацию по оказываемым услугам.</p></div>
+                        </div>
+                    </div>
+    </div>
+</div>
+    <div class="block3">
+        <div class="block3_title">
+            <h1>Как мы работаем</h1>
+        </div>
+        <div class="block3_img" id="block3_img">
+            <img src="images/note.png" alt="" >
+         
+            <div class="block3_link1">
+                <div class="block3_link1_block">
+                    <div class="block3_link1_top"></div>
+                    <div class="block3_link1_center"></div>
+                    <div class="block3_link1_bottom">
+                        <div class="block3_link1_bottom_center"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="block3_link2">
+                    <div class="block3_link1_block">
+                        <div class="block3_link1_top"></div>
+                        <div class="block3_link1_center"></div>
+                        <div class="block3_link1_bottom">
+                            <div class="block3_link1_bottom_center"></div>
+                        </div>
+    
+                    </div>
+            </div>
+            <div class="block3_link3">
+                    <div class="block3_link1_block">
+                        <div class="block3_link1_top"></div>
+                        <div class="block3_link1_center"></div>
+                        <div class="block3_link1_bottom">
+                            <div class="block3_link1_bottom_center"></div>
+                        </div>
+    
+                    </div>
+            </div>
+            <div class="block3_link4">
+                    <div class="block3_link1_block">
+                        <div class="block3_link1_top"></div>
+                        <div class="block3_link1_center"></div>
+                        <div class="block3_link1_bottom">
+                            <div class="block3_link1_bottom_center"></div>
+                        </div>
+    
+                    </div>
+            </div>
+        </div>
+        <div class="block3_abs"></div>
+    </div>
+    <div class="block4">
+        <div class="block4_title">
+            <h2>Статистика </h2>
+        </div>
+        <div class="block4_top">
+            <div class="block4_top_top">
+            <div class="block4_top_item block4_top_item1">
+                <img src="images/icon/day.png" alt="">
+                <div class="block4_top_item_info">
+                    <div class="block4_top_item_info_top">
+                        <p>600</p>
+                    </div>
+                    <div class="block4_top_item_info_bottom">
+                            <p>Дней</p>
+                    </div>
+                </div>
+            </div>
+            <div class="block4_top_item">
+                    <div class="block4_top_item_info">
+                            <div class="block4_top_item_info_top">
+                                <p>200100 <span class="dol">$</span></p>
+                            </div>
+                            <div class="block4_top_item_info_bottom">
+                                    <p>сумма вложений </p>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <div class=" block4_top_top block4_top_top2">
+
+            <div class="block4_top_item">
+                    <div class="block4_top_item_info">
+                            <div class="block4_top_item_info_top">
+                                <p>12000 <span class="dol">$</span></p>
+                            </div>
+                            <div class="block4_top_item_info_bottom">
+                                    <p>вывели из системы </p>
+                            </div>
+                        </div>
+            </div>
+            <div class="block4_top_item block4_top_item1">
+                    <img src="images/icon/people.png" alt="">
+                    <div class="block4_top_item_info">
+                        <div class="block4_top_item_info_top">
+                            <p>5000</p>
+                        </div>
+                        <div class="block4_top_item_info_bottom">
+                                <p>Пользоватилей</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+        <div class="block4_bottom">
+                <div class="block4_abs">
+
+                </div>
+            <div class="block4_bottom_img">
+                <img src="images/icon/botle.png" alt="">
+            </div>
+            <div class="block4_bottom_info">
+                <div class="block4_bottom_info_top">
+                    <p>Депозитный пакет </p>
+                </div>
+                <div class="block4_bottom_info_bottom">
+                   <!-- <p>Incididunt non et sunt qui officia adipisicing adipisicing fugiat qui reprehenderit proident occaecat dolor eiusmod. Fugiat aliquip occaecat labore elit non qui in commodo quis et. Laborum veniam occaecat dolor veniam sit quis nisi do. Anim eiusmod repre.</p>-->
+                </div>
+            </div>
+            <div class="block4_bottom_deg">
+                <p><span class="span_deg">7.2%</span><br/> В неделю</p>
+            </div>
+            <div class="block4_bottom_but">
+                <div class="block4_bottom_button"  id="mouseup3" onclick="changeImg(3);">
+                   <p>Регистрация</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="block4_end">
+            <div class="block4_end_title">
+                <p>Рассчитать прибыль</p>
+            </div>
+            <div class="block4_end_title_bott">
+                <p>Тут вы можете рассчитать примерную прибыль со своего депозита.</p>
+            </div>
+            <div class="block4_end_cal_block">
+                <div class="block4_end_cal">
+                    <input value="30" type="range" id="range" oninput="fun1()" min="1">
+                    <div id="range_green">
+                        <div class="range_green_left">
+                            <p>0$</p>
+                        </div>
+                        <div class="range_green_right">
+                            <p>3000$</p>
+                        </div>
+                    </div>
+                    <p id="range_val">300$</p>
+                </div>
+                <div class="block4_end_cal_plus">
+                   <p>начисление  </p> <p id="block4_plus">53$</p> <p> в неделю</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block5">
+        <div class="block5_abs">
+            <img src="images/sea_top.png" alt="">
+            <div class="block5_abs_link">
+                <div id="otkaz_btn"><p>Denial of responsibility</p></div>
+                <a id="polid" href="doc1.docx"><p>Privacy Policy. </p></a>
+            </div>
+        </div>
+        <div class="block5_left">
+            <div class="block5_left_img">
+                <img src="images/logo.png" alt="">
+            </div>
+            
+        </div>
+        <div class="block5_right">
+            <div class="block5_right_logo">
+                <img src="images/icon/consalt.png" alt="">
+            </div>
+            <div class="block5_right_title">
+                <p>ЕСТЬ ВОПРОСЫ?</p>
+            </div>
+            <div class="block5_right_text">
+                    <p>Если у вас возникли вопросы, свяжитесь с нами удобным способом. 
+Наша техническая поддержка ответит вам на интересующие вопросы.  
+</p>
+            </div>
+            <div class="block5_right_mail">
+                    <img src="images/icon/tel.png" alt=""  id="mouseup4" onclick="changeImg(4);">
+                    <img src="images/icon/Skype.png" alt=""  id="mouseup5" onclick="changeImg(5);">
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<script>
+function fun1() {
+    var rng=document.getElementById('range'); //rng - это Input
+    var div=document.getElementById('range_green'); // div - блок test
+    var range_val= document.getElementById("range_val");
+    var block4_plus = document.getElementById("block4_plus")
+
+    div.style.width=(3*rng.value-5)+'px';
+    range_val.innerHTML=30*rng.value+"$";
+    range_val.style.left=3*rng.value+'px';
+    block4_plus.innerHTML= Math.round(30*rng.value*0.1767678) + "$";
+}
+function changeImg(i){
+    document.getElementById("mouseup"+ i).addEventListener("click", function(){
+        document.getElementById("block_form").style.left="50%";
+        window.location.href = '#header';         
+
+
+}); 
+
+document.getElementById("close").addEventListener("click", function(){
+
+document.getElementById("block_form").style.left="-300%";
+//document.getElementById("block_form").style.display="block";
+
+
+
+});
+}
+document.getElementById("otkaz_btn").addEventListener("click", function(){
+   document.getElementById("otkaz_block").style.bottom="200px";
+
+});
+
+document.getElementById("close_ot").addEventListener("click", function(){
+
+   document.getElementById("otkaz_block").style.bottom="-300%";
+
+
+});
+
+
+function validate(evt) {
+  var theEvent = evt || window.event;
+  var key = theEvent.keyCode || theEvent.which;
+  key = String.fromCharCode( key );
+  var regex = /[0-9]|\./;
+  if( !regex.test(key) ) {
+    theEvent.returnValue = false;
+    if(theEvent.preventDefault) theEvent.preventDefault();
+  }
+}
+
+
+ /*   var linkNav = document.querySelectorAll('[href^="#"]'), 
+    V = 0.3;  
+    for (var i = 0; i < linkNav.length; i++) {
+    linkNav[i].addEventListener('click', function(e) { 
+        e.preventDefault(); 
+        var w = window.pageYOffset,  
+            hash = this.href.replace(/[^#]*(.*)/, '$1');  
+        t = document.querySelector(hash).getBoundingClientRect().top, 
+            start = null;
+        requestAnimationFrame(step);  
+        function step(time) {
+            if (start === null) start = time;
+            var progress = time - start,
+                r = (t < 0 ? Math.max(w - progress/V, w + t) : Math.min(w + progress/V, w + t));
+            window.scrollTo(0,r);
+            if (r != w + t) {
+                requestAnimationFrame(step)
+            } else {
+                location.hash = hash  
+            }
+        }
+    }, false);
+}*/
+window.onload = function docstart(){
+    var min_width = 920;
+    var width_brow = innerWidth;
+    var block3_img = document.getElementById("block3_img");
+    var iphone = document.getElementById("iphone");
+
+    if (width_brow < 960 ){
+
+           
+        block3_img.innerHTML='<img src="images/iphone.png" alt="" id="iphone">';
+        var iphone = document.getElementById("iphone");
+        iphone.style.background="#000";
+
+        iphone.style.width = "250px";
+        console.log("oj");
+        window.onscroll= function() { 
+        var xy = window.pageYOffset || document.documentElement.scrollTop;
+            console.log(xy);
+
+        if(xy>2000){
+
+           
+
+                var iphone = document.getElementById("iphone");
+ 
+                iphone.style.background="#fff";
+            
+        }
+        if(xy>2300){
+
+           
+
+        var iphone = document.getElementById("iphone");
+
+        iphone.style.background="#fff";
+
+        }
+        
+        }
+
+
+    }
+
+
+}
+</script>
+</body>
+</html>
